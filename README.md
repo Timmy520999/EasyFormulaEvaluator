@@ -12,3 +12,15 @@
 ## 5. You can place "Formula" and "Mapping" in a data table, a data asset, or anywhere else where you manage data. In this way, you can dynamically manage the data within it. 
 
 <img src="./IMG/Nodes.png">
+
+## 6. /* COMPILE TIME OPTIONS */
+
+    /* Exponentiation associativity:
+    For a^b^c = (a^b)^c and -a^b = (-a)^b do nothing.
+    For a^b^c = a^(b^c) and -a^b = -(a^b) uncomment the next line.*/
+    /* #define TE_POW_FROM_RIGHT */
+
+    /* Logarithms
+    For log = base 10 log do nothing
+    For log = natural log uncomment the next line. */
+    /* #define TE_NAT_LOG */
